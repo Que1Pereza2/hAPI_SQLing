@@ -9,6 +9,7 @@ app.set('json spaces', 2);
 
 // allows the app to support JSON encoded bodies
 app.use(bodyParser.json());
+
 // allows the app to support URL encoded bodies
 app.use(bodyParser.urlencoded({extended: true}));
 
